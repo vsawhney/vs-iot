@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: vs-iot
+  host: vs-iot
+  disk_quota: 1024M
+  services:
+  - vs-iot-cloudantNoSQLDB
+  - vs-iot-iotf-service
